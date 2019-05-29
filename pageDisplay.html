@@ -6,11 +6,14 @@
     }
 
     .centerImage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 8px;
-    border-image: 5px solid black;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .custImage{
+        border-radius: 8px;
+        border-image: 5px solid black;
     }
 
     .custButton{
@@ -41,7 +44,7 @@
     <p class = "centerText">Hey there! Welcome to my website application, Ivanardo Da Vinci, where you will get to 
         experience the true art that is me &#128526</p>
 
-    <img src = "/images/guapo.png" alt="Picture of me" height="420" width="600" class = "centerImage">
+    <img src = "/images/guapo.png" alt="Picture of me" height="420" width="600" class = "centerImage custImage">
     
     <br>
     
@@ -52,9 +55,9 @@
         <button class="custButton" onclick="displayAquaman()"> Aquaman? &#128031</button>
     </div>
 
-    <img id = "pic1" src = "/images/soccer.jpg" alt = "Soccer" height = "550" width = "450" style="display:none;">
-    <img id = "pic2" src = "/images/20180301_175053.jpg" alt = "Call Me" height = "490" width = "560" style="display:none;" class="rotateImage">
-    <img id = "pic3" src = "/images/FB_IMG_1519701824991.jpg" alt = "Aquaman" height = "550" width = "390" style="display:none;">
+    <img id = "pic1" src = "/images/soccer.jpg" alt = "Soccer" height = "550" width = "450" style="display:none;" class="custImage">
+    <img id = "pic2" src = "/images/20180301_175053.jpg" alt = "Call Me" height = "490" width = "560" style="display:none;" class="rotateImage custImage">
+    <img id = "pic3" src = "/images/FB_IMG_1519701824991.jpg" alt = "Aquaman" height = "550" width = "390" style="display:none;" class="custImage">
    
    <script type = "text/javascript">
         function displaySoccer(){
