@@ -1,0 +1,24 @@
+{
+  "name": "displayname",
+  "version": "1.0.0",
+  "description": "This js file allows my name to be displayed when a request is sent.",
+  "main": "displayName.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanSantos13/ivanardo-da-vinci.git"
+  },
+  "author": "Ivan Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanSantos13/ivanardo-da-vinci/issues"
+  },
+  "homepage": "https://github.com/IvanSantos13/ivanardo-da-vinci#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.17.0",
+    "pug": "^2.0.3"
+  }
+}

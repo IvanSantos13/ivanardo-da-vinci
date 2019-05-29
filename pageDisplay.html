@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<style>
+    .centerText{
+        text-align: center;
+    }
+
+    .centerImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    border-image: 5px solid black;
+    }
+
+    .custButton{
+        background-color: white;
+        border: 4px solid black;
+        color: black;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .customFont{
+        font-family: cursive;
+    }
+
+    .rotateImage{
+        transform: rotate(90deg);
+    }
+</style>
+
+<body style="background-color:khaki;">
+
+    <h1 class = "centerText customFont">Ivanardo Da Vinci</h1>
+
+    <p class = "centerText" >By Ivan Santos</p>
+
+    <br>
+
+    <p class = "centerText">Hey there! Welcome to my website application, Ivanardo Da Vinci, where you will get to 
+        experience the true art that is me &#128526</p>
+
+    <img src = "/images/guapo.png" alt="Picture of me" height="420" width="600" class = "centerImage">
+    
+    <br>
+    
+    <p class="centerText">&#9734 Click below for more images of my art show &#9734</p>
+    <div class = "centerText">
+        <button class="custButton" onclick="displaySoccer()"> Soccer &#9917</button>
+        <button class="custButton" onclick="displayCallMe()"> Call Me &#129305</button>
+        <button class="custButton" onclick="displayAquaman()"> Aquaman? &#128031</button>
+    </div>
+
+    <img id = "pic1" src = "/images/soccer.jpg" alt = "Soccer" height = "550" width = "450" style="display:none;">
+    <img id = "pic2" src = "/images/20180301_175053.jpg" alt = "Call Me" height = "490" width = "560" style="display:none;" class="rotateImage">
+    <img id = "pic3" src = "/images/FB_IMG_1519701824991.jpg" alt = "Aquaman" height = "550" width = "390" style="display:none;">
+   
+   <script type = "text/javascript">
+        function displaySoccer(){
+            var pic1 = "/images/soccer.jpg"
+            document.getElementById('pic1').style.display=''      
+        }
+
+        function displayCallMe(){
+            var pic2 = "/images/20180301_175053.jpg"
+            document.getElementById('pic2').style.display = ''
+        }
+
+        function displayAquaman(){
+            var pic3 = "/images/FB_IMG_1519701824991.jpg"
+            document.getElementById('pic3').style.display = ''
+        }
+    </script>
+
+    <br>
+    <br>
+
+</body>
+</html>
