@@ -5,7 +5,7 @@
   "main": "displayName.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node pageDisplay.js"
+    "start": "node displayName.js"
   },
   "repository": {
     "type": "git",
