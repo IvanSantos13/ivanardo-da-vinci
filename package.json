@@ -19,7 +19,7 @@
   "homepage": "https://github.com/IvanSantos13/ivanardo-da-vinci#readme",
   "dependencies": {
     "ejs": "^2.6.1",
-    "express": "^4.17.0",
+    "express": "^4.17.3",
     "pug": "^2.0.3"
   }
 }
